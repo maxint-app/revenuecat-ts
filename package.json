@@ -1,0 +1,22 @@
+{
+  "name": "revenuecat-ts",
+  "version": "2.0.0",
+  "description": "RevenueCat API client for Typescript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxint-app/revenuecat-ts.git"
+  },
+  "keywords": [
+    "revenuecat"
+  ],
+  "author": "Maxint Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxint-app/revenuecat-ts/issues"
+  },
+  "homepage": "https://github.com/maxint-app/revenuecat-ts#readme"
+}
