@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Product } from './Product';
+import { mapValues } from "../runtime.ts";
+import type { Product } from "./Product.ts";
 import {
     ProductFromJSON,
     ProductFromJSONTyped,
     ProductToJSON,
-} from './Product';
+} from "./Product.ts";
 
 /**
  * List of products attached to the entitlement

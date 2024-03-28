@@ -12,43 +12,43 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Country } from './Country';
+import { mapValues } from "../runtime.ts";
+import type { Country } from "./Country.ts";
 import {
     CountryFromJSON,
     CountryFromJSONTyped,
     CountryToJSON,
-} from './Country';
-import type { EntitlementList } from './EntitlementList';
+} from "./Country.ts";
+import type { EntitlementList } from "./EntitlementList.ts";
 import {
     EntitlementListFromJSON,
     EntitlementListFromJSONTyped,
     EntitlementListToJSON,
-} from './EntitlementList';
-import type { SubscriptionEnvironment } from './SubscriptionEnvironment';
+} from "./EntitlementList.ts";
+import type { SubscriptionEnvironment } from "./SubscriptionEnvironment.ts";
 import {
     SubscriptionEnvironmentFromJSON,
     SubscriptionEnvironmentFromJSONTyped,
     SubscriptionEnvironmentToJSON,
-} from './SubscriptionEnvironment';
-import type { SubscriptionOwnership } from './SubscriptionOwnership';
+} from "./SubscriptionEnvironment.ts";
+import type { SubscriptionOwnership } from "./SubscriptionOwnership.ts";
 import {
     SubscriptionOwnershipFromJSON,
     SubscriptionOwnershipFromJSONTyped,
     SubscriptionOwnershipToJSON,
-} from './SubscriptionOwnership';
-import type { SubscriptionPendingChanges } from './SubscriptionPendingChanges';
+} from "./SubscriptionOwnership.ts";
+import type { SubscriptionPendingChanges } from "./SubscriptionPendingChanges.ts";
 import {
     SubscriptionPendingChangesFromJSON,
     SubscriptionPendingChangesFromJSONTyped,
     SubscriptionPendingChangesToJSON,
-} from './SubscriptionPendingChanges';
-import type { SubscriptionTotalRevenueInUsd } from './SubscriptionTotalRevenueInUsd';
+} from "./SubscriptionPendingChanges.ts";
+import type { SubscriptionTotalRevenueInUsd } from "./SubscriptionTotalRevenueInUsd.ts";
 import {
     SubscriptionTotalRevenueInUsdFromJSON,
     SubscriptionTotalRevenueInUsdFromJSONTyped,
     SubscriptionTotalRevenueInUsdToJSON,
-} from './SubscriptionTotalRevenueInUsd';
+} from "./SubscriptionTotalRevenueInUsd.ts";
 
 /**
  * 

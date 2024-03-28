@@ -12,7 +12,7 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
+import { mapValues } from "../runtime.ts";
 /**
  * Amazon type details. Should only be used when type is amazon.
  * @export

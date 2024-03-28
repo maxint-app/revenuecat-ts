@@ -12,7 +12,7 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
+import { mapValues } from "../runtime.ts";
 /**
  * Legacy Mac App Store type details
  * @export

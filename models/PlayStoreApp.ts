@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PlayStoreAppPlayStore } from './PlayStoreAppPlayStore';
+import { mapValues } from "../runtime.ts";
+import type { PlayStoreAppPlayStore } from "./PlayStoreAppPlayStore.ts";
 import {
     PlayStoreAppPlayStoreFromJSON,
     PlayStoreAppPlayStoreFromJSONTyped,
     PlayStoreAppPlayStoreToJSON,
-} from './PlayStoreAppPlayStore';
+} from "./PlayStoreAppPlayStore.ts";
 
 /**
  * 

@@ -12,31 +12,31 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { AmazonAppAmazon } from './AmazonAppAmazon';
+import { mapValues } from "../runtime.ts";
+import type { AmazonAppAmazon } from "./AmazonAppAmazon.ts";
 import {
     AmazonAppAmazonFromJSON,
     AmazonAppAmazonFromJSONTyped,
     AmazonAppAmazonToJSON,
-} from './AmazonAppAmazon';
-import type { AppStoreAppAppStore } from './AppStoreAppAppStore';
+} from "./AmazonAppAmazon.ts";
+import type { AppStoreAppAppStore } from "./AppStoreAppAppStore.ts";
 import {
     AppStoreAppAppStoreFromJSON,
     AppStoreAppAppStoreFromJSONTyped,
     AppStoreAppAppStoreToJSON,
-} from './AppStoreAppAppStore';
-import type { MacAppStoreAppMacAppStore } from './MacAppStoreAppMacAppStore';
+} from "./AppStoreAppAppStore.ts";
+import type { MacAppStoreAppMacAppStore } from "./MacAppStoreAppMacAppStore.ts";
 import {
     MacAppStoreAppMacAppStoreFromJSON,
     MacAppStoreAppMacAppStoreFromJSONTyped,
     MacAppStoreAppMacAppStoreToJSON,
-} from './MacAppStoreAppMacAppStore';
-import type { PlayStoreAppPlayStore } from './PlayStoreAppPlayStore';
+} from "./MacAppStoreAppMacAppStore.ts";
+import type { PlayStoreAppPlayStore } from "./PlayStoreAppPlayStore.ts";
 import {
     PlayStoreAppPlayStoreFromJSON,
     PlayStoreAppPlayStoreFromJSONTyped,
     PlayStoreAppPlayStoreToJSON,
-} from './PlayStoreAppPlayStore';
+} from "./PlayStoreAppPlayStore.ts";
 
 /**
  * 

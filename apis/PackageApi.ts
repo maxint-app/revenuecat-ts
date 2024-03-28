@@ -13,7 +13,7 @@
  */
 
 
-import * as runtime from '../runtime';
+import * as runtime from "../runtime.ts";
 import type {
   AttachProductsToPackageRequest,
   CreateApp409Response,
@@ -32,7 +32,7 @@ import type {
   Package,
   ProductsFromPackage,
   UpdatePackageRequest,
-} from '../models/index';
+} from "../models/index.ts";
 import {
     AttachProductsToPackageRequestFromJSON,
     AttachProductsToPackageRequestToJSON,
@@ -68,7 +68,7 @@ import {
     ProductsFromPackageToJSON,
     UpdatePackageRequestFromJSON,
     UpdatePackageRequestToJSON,
-} from '../models/index';
+} from "../models/index.ts";
 
 export interface AttachProductsToPackageOperationRequest {
     projectId: string;

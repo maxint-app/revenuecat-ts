@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Subscription } from './Subscription';
+import { mapValues } from "../runtime.ts";
+import type { Subscription } from "./Subscription.ts";
 import {
     SubscriptionFromJSON,
     SubscriptionFromJSONTyped,
     SubscriptionToJSON,
-} from './Subscription';
+} from "./Subscription.ts";
 
 /**
  * 

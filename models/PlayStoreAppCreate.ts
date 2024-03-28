@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { UpdateAppRequestPlayStore } from './UpdateAppRequestPlayStore';
+import { mapValues } from "../runtime.ts";
+import type { UpdateAppRequestPlayStore } from "./UpdateAppRequestPlayStore.ts";
 import {
     UpdateAppRequestPlayStoreFromJSON,
     UpdateAppRequestPlayStoreFromJSONTyped,
     UpdateAppRequestPlayStoreToJSON,
-} from './UpdateAppRequestPlayStore';
+} from "./UpdateAppRequestPlayStore.ts";
 
 /**
  * 

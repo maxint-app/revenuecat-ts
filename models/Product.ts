@@ -12,25 +12,25 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { App } from './App';
+import { mapValues } from "../runtime.ts";
+import type { App } from "./App.ts";
 import {
     AppFromJSON,
     AppFromJSONTyped,
     AppToJSON,
-} from './App';
-import type { ProductType } from './ProductType';
+} from "./App.ts";
+import type { ProductType } from "./ProductType.ts";
 import {
     ProductTypeFromJSON,
     ProductTypeFromJSONTyped,
     ProductTypeToJSON,
-} from './ProductType';
-import type { SubscriptionProduct } from './SubscriptionProduct';
+} from "./ProductType.ts";
+import type { SubscriptionProduct } from "./SubscriptionProduct.ts";
 import {
     SubscriptionProductFromJSON,
     SubscriptionProductFromJSONTyped,
     SubscriptionProductToJSON,
-} from './SubscriptionProduct';
+} from "./SubscriptionProduct.ts";
 
 /**
  * 

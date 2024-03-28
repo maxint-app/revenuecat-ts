@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Project } from './Project';
+import { mapValues } from "../runtime.ts";
+import type { Project } from "./Project.ts";
 import {
     ProjectFromJSON,
     ProjectFromJSONTyped,
     ProjectToJSON,
-} from './Project';
+} from "./Project.ts";
 
 /**
  * 

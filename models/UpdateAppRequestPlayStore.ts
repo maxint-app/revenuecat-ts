@@ -12,7 +12,7 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
+import { mapValues } from "../runtime.ts";
 /**
  * Play Store type details. Should only be used when type is play_store.
  * @export

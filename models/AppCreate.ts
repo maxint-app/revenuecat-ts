@@ -12,31 +12,31 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { AmazonAppCreateAmazon } from './AmazonAppCreateAmazon';
+import { mapValues } from "../runtime.ts";
+import type { AmazonAppCreateAmazon } from "./AmazonAppCreateAmazon.ts";
 import {
     AmazonAppCreateAmazonFromJSON,
     AmazonAppCreateAmazonFromJSONTyped,
     AmazonAppCreateAmazonToJSON,
-} from './AmazonAppCreateAmazon';
-import type { AppStoreAppCreateAppStore } from './AppStoreAppCreateAppStore';
+} from "./AmazonAppCreateAmazon.ts";
+import type { AppStoreAppCreateAppStore } from "./AppStoreAppCreateAppStore.ts";
 import {
     AppStoreAppCreateAppStoreFromJSON,
     AppStoreAppCreateAppStoreFromJSONTyped,
     AppStoreAppCreateAppStoreToJSON,
-} from './AppStoreAppCreateAppStore';
-import type { MacAppStoreAppCreateMacAppStore } from './MacAppStoreAppCreateMacAppStore';
+} from "./AppStoreAppCreateAppStore.ts";
+import type { MacAppStoreAppCreateMacAppStore } from "./MacAppStoreAppCreateMacAppStore.ts";
 import {
     MacAppStoreAppCreateMacAppStoreFromJSON,
     MacAppStoreAppCreateMacAppStoreFromJSONTyped,
     MacAppStoreAppCreateMacAppStoreToJSON,
-} from './MacAppStoreAppCreateMacAppStore';
-import type { UpdateAppRequestPlayStore } from './UpdateAppRequestPlayStore';
+} from "./MacAppStoreAppCreateMacAppStore.ts";
+import type { UpdateAppRequestPlayStore } from "./UpdateAppRequestPlayStore.ts";
 import {
     UpdateAppRequestPlayStoreFromJSON,
     UpdateAppRequestPlayStoreFromJSONTyped,
     UpdateAppRequestPlayStoreToJSON,
-} from './UpdateAppRequestPlayStore';
+} from "./UpdateAppRequestPlayStore.ts";
 
 /**
  * 

@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Currency } from './Currency';
+import { mapValues } from "../runtime.ts";
+import type { Currency } from "./Currency.ts";
 import {
     CurrencyFromJSON,
     CurrencyFromJSONTyped,
     CurrencyToJSON,
-} from './Currency';
+} from "./Currency.ts";
 
 /**
  * 

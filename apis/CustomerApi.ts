@@ -13,7 +13,7 @@
  */
 
 
-import * as runtime from '../runtime';
+import * as runtime from "../runtime.ts";
 import type {
   ListProjects400Response,
   ListProjects401Response,
@@ -22,7 +22,7 @@ import type {
   ListProjects429Response,
   ListProjects500Response,
   ListSubscriptions,
-} from '../models/index';
+} from "../models/index.ts";
 import {
     ListProjects400ResponseFromJSON,
     ListProjects400ResponseToJSON,
@@ -38,7 +38,7 @@ import {
     ListProjects500ResponseToJSON,
     ListSubscriptionsFromJSON,
     ListSubscriptionsToJSON,
-} from '../models/index';
+} from "../models/index.ts";
 
 export interface ListSubscriptionsRequest {
     projectId: string;

@@ -13,7 +13,7 @@
  */
 
 
-import * as runtime from '../runtime';
+import * as runtime from "../runtime.ts";
 import type {
   App,
   AppCreate,
@@ -29,7 +29,7 @@ import type {
   ListProjects429Response,
   ListProjects500Response,
   UpdateAppRequest,
-} from '../models/index';
+} from "../models/index.ts";
 import {
     AppFromJSON,
     AppToJSON,
@@ -59,7 +59,7 @@ import {
     ListProjects500ResponseToJSON,
     UpdateAppRequestFromJSON,
     UpdateAppRequestToJSON,
-} from '../models/index';
+} from "../models/index.ts";
 
 export interface CreateAppRequest {
     projectId: string;

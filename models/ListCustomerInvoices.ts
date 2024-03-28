@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Invoice } from './Invoice';
+import { mapValues } from "../runtime.ts";
+import type { Invoice } from "./Invoice.ts";
 import {
     InvoiceFromJSON,
     InvoiceFromJSONTyped,
     InvoiceToJSON,
-} from './Invoice';
+} from "./Invoice.ts";
 
 /**
  * 

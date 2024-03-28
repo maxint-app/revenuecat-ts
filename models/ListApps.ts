@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { App } from './App';
+import { mapValues } from "../runtime.ts";
+import type { App } from "./App.ts";
 import {
     AppFromJSON,
     AppFromJSONTyped,
     AppToJSON,
-} from './App';
+} from "./App.ts";
 
 /**
  * 

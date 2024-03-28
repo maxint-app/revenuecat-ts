@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import type { Environment } from './Environment';
+import type { Environment } from "./Environment.ts";
 import {
     instanceOfEnvironment,
     EnvironmentFromJSON,
     EnvironmentFromJSONTyped,
     EnvironmentToJSON,
-} from './Environment';
+} from "./Environment.ts";
 
 /**
  * @type SubscriptionEnvironment

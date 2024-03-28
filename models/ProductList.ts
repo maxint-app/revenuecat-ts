@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PackageProductAssociation } from './PackageProductAssociation';
+import { mapValues } from "../runtime.ts";
+import type { PackageProductAssociation } from "./PackageProductAssociation.ts";
 import {
     PackageProductAssociationFromJSON,
     PackageProductAssociationFromJSONTyped,
     PackageProductAssociationToJSON,
-} from './PackageProductAssociation';
+} from "./PackageProductAssociation.ts";
 
 /**
  * 

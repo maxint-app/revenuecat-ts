@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PackageList } from './PackageList';
+import { mapValues } from "../runtime.ts";
+import type { PackageList } from "./PackageList.ts";
 import {
     PackageListFromJSON,
     PackageListFromJSONTyped,
     PackageListToJSON,
-} from './PackageList';
+} from "./PackageList.ts";
 
 /**
  * 

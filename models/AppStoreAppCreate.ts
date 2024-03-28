@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { AppStoreAppCreateAppStore } from './AppStoreAppCreateAppStore';
+import { mapValues } from "../runtime.ts";
+import type { AppStoreAppCreateAppStore } from "./AppStoreAppCreateAppStore.ts";
 import {
     AppStoreAppCreateAppStoreFromJSON,
     AppStoreAppCreateAppStoreFromJSONTyped,
     AppStoreAppCreateAppStoreToJSON,
-} from './AppStoreAppCreateAppStore';
+} from "./AppStoreAppCreateAppStore.ts";
 
 /**
  * 

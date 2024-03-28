@@ -13,7 +13,7 @@
  */
 
 
-import * as runtime from '../runtime';
+import * as runtime from "../runtime.ts";
 import type {
   CreateApp409Response,
   CreateApp422Response,
@@ -28,7 +28,7 @@ import type {
   ListProjects429Response,
   ListProjects500Response,
   Product,
-} from '../models/index';
+} from "../models/index.ts";
 import {
     CreateApp409ResponseFromJSON,
     CreateApp409ResponseToJSON,
@@ -56,7 +56,7 @@ import {
     ListProjects500ResponseToJSON,
     ProductFromJSON,
     ProductToJSON,
-} from '../models/index';
+} from "../models/index.ts";
 
 export interface CreateProductOperationRequest {
     projectId: string;

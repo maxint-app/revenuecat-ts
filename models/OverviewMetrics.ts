@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { OverviewMetric } from './OverviewMetric';
+import { mapValues } from "../runtime.ts";
+import type { OverviewMetric } from "./OverviewMetric.ts";
 import {
     OverviewMetricFromJSON,
     OverviewMetricFromJSONTyped,
     OverviewMetricToJSON,
-} from './OverviewMetric';
+} from "./OverviewMetric.ts";
 
 /**
  * 

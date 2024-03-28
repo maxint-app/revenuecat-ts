@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import type { MonetaryAmount } from './MonetaryAmount';
+import type { MonetaryAmount } from "./MonetaryAmount.ts";
 import {
     instanceOfMonetaryAmount,
     MonetaryAmountFromJSON,
     MonetaryAmountFromJSONTyped,
     MonetaryAmountToJSON,
-} from './MonetaryAmount';
+} from "./MonetaryAmount.ts";
 
 /**
  * @type SubscriptionTotalRevenueInUsd

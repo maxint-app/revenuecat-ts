@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { AmazonAppAmazon } from './AmazonAppAmazon';
+import { mapValues } from "../runtime.ts";
+import type { AmazonAppAmazon } from "./AmazonAppAmazon.ts";
 import {
     AmazonAppAmazonFromJSON,
     AmazonAppAmazonFromJSONTyped,
     AmazonAppAmazonToJSON,
-} from './AmazonAppAmazon';
+} from "./AmazonAppAmazon.ts";
 
 /**
  * 

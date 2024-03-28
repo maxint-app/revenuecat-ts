@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import type { Ownership } from './Ownership';
+import type { Ownership } from "./Ownership.ts";
 import {
     instanceOfOwnership,
     OwnershipFromJSON,
     OwnershipFromJSONTyped,
     OwnershipToJSON,
-} from './Ownership';
+} from "./Ownership.ts";
 
 /**
  * @type SubscriptionOwnership

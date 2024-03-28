@@ -13,7 +13,7 @@
  */
 
 
-import * as runtime from '../runtime';
+import * as runtime from "../runtime.ts";
 import type {
   AttachProductsToEntitlementRequest,
   CreateApp409Response,
@@ -32,7 +32,7 @@ import type {
   ListProjects500Response,
   ProductsFromEntitlement,
   UpdateEntitlementRequest,
-} from '../models/index';
+} from "../models/index.ts";
 import {
     AttachProductsToEntitlementRequestFromJSON,
     AttachProductsToEntitlementRequestToJSON,
@@ -68,7 +68,7 @@ import {
     ProductsFromEntitlementToJSON,
     UpdateEntitlementRequestFromJSON,
     UpdateEntitlementRequestToJSON,
-} from '../models/index';
+} from "../models/index.ts";
 
 export interface AttachProductsToEntitlementOperationRequest {
     projectId: string;

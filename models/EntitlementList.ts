@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Entitlement } from './Entitlement';
+import { mapValues } from "../runtime.ts";
+import type { Entitlement } from "./Entitlement.ts";
 import {
     EntitlementFromJSON,
     EntitlementFromJSONTyped,
     EntitlementToJSON,
-} from './Entitlement';
+} from "./Entitlement.ts";
 
 /**
  * 

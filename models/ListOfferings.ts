@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Offering } from './Offering';
+import { mapValues } from "../runtime.ts";
+import type { Offering } from "./Offering.ts";
 import {
     OfferingFromJSON,
     OfferingFromJSONTyped,
     OfferingToJSON,
-} from './Offering';
+} from "./Offering.ts";
 
 /**
  * 

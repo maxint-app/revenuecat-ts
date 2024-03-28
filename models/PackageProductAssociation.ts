@@ -12,19 +12,19 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { EligibilityCriteria } from './EligibilityCriteria';
+import { mapValues } from "../runtime.ts";
+import type { EligibilityCriteria } from "./EligibilityCriteria.ts";
 import {
     EligibilityCriteriaFromJSON,
     EligibilityCriteriaFromJSONTyped,
     EligibilityCriteriaToJSON,
-} from './EligibilityCriteria';
-import type { Product } from './Product';
+} from "./EligibilityCriteria.ts";
+import type { Product } from "./Product.ts";
 import {
     ProductFromJSON,
     ProductFromJSONTyped,
     ProductToJSON,
-} from './Product';
+} from "./Product.ts";
 
 /**
  * 

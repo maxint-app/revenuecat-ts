@@ -13,7 +13,7 @@
  */
 
 
-import * as runtime from '../runtime';
+import * as runtime from "../runtime.ts";
 import type {
   CreateApp409Response,
   CreateApp422Response,
@@ -29,7 +29,7 @@ import type {
   ListProjects500Response,
   Offering,
   UpdateOfferingRequest,
-} from '../models/index';
+} from "../models/index.ts";
 import {
     CreateApp409ResponseFromJSON,
     CreateApp409ResponseToJSON,
@@ -59,7 +59,7 @@ import {
     OfferingToJSON,
     UpdateOfferingRequestFromJSON,
     UpdateOfferingRequestToJSON,
-} from '../models/index';
+} from "../models/index.ts";
 
 export interface CreateOfferingOperationRequest {
     projectId: string;

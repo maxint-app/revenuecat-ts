@@ -12,31 +12,31 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { UpdateAppRequestAmazon } from './UpdateAppRequestAmazon';
+import { mapValues } from "../runtime.ts";
+import type { UpdateAppRequestAmazon } from "./UpdateAppRequestAmazon.ts";
 import {
     UpdateAppRequestAmazonFromJSON,
     UpdateAppRequestAmazonFromJSONTyped,
     UpdateAppRequestAmazonToJSON,
-} from './UpdateAppRequestAmazon';
-import type { UpdateAppRequestAppStore } from './UpdateAppRequestAppStore';
+} from "./UpdateAppRequestAmazon.ts";
+import type { UpdateAppRequestAppStore } from "./UpdateAppRequestAppStore.ts";
 import {
     UpdateAppRequestAppStoreFromJSON,
     UpdateAppRequestAppStoreFromJSONTyped,
     UpdateAppRequestAppStoreToJSON,
-} from './UpdateAppRequestAppStore';
-import type { UpdateAppRequestMacAppStore } from './UpdateAppRequestMacAppStore';
+} from "./UpdateAppRequestAppStore.ts";
+import type { UpdateAppRequestMacAppStore } from "./UpdateAppRequestMacAppStore.ts";
 import {
     UpdateAppRequestMacAppStoreFromJSON,
     UpdateAppRequestMacAppStoreFromJSONTyped,
     UpdateAppRequestMacAppStoreToJSON,
-} from './UpdateAppRequestMacAppStore';
-import type { UpdateAppRequestPlayStore } from './UpdateAppRequestPlayStore';
+} from "./UpdateAppRequestMacAppStore.ts";
+import type { UpdateAppRequestPlayStore } from "./UpdateAppRequestPlayStore.ts";
 import {
     UpdateAppRequestPlayStoreFromJSON,
     UpdateAppRequestPlayStoreFromJSONTyped,
     UpdateAppRequestPlayStoreToJSON,
-} from './UpdateAppRequestPlayStore';
+} from "./UpdateAppRequestPlayStore.ts";
 
 /**
  * 

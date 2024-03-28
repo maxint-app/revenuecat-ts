@@ -12,13 +12,13 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ProductType } from './ProductType';
+import { mapValues } from "../runtime.ts";
+import type { ProductType } from "./ProductType.ts";
 import {
     ProductTypeFromJSON,
     ProductTypeFromJSONTyped,
     ProductTypeToJSON,
-} from './ProductType';
+} from "./ProductType.ts";
 
 /**
  * 

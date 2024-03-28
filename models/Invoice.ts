@@ -12,19 +12,19 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { InvoiceLineItem } from './InvoiceLineItem';
+import { mapValues } from "../runtime.ts";
+import type { InvoiceLineItem } from "./InvoiceLineItem.ts";
 import {
     InvoiceLineItemFromJSON,
     InvoiceLineItemFromJSONTyped,
     InvoiceLineItemToJSON,
-} from './InvoiceLineItem';
-import type { MonetaryAmount } from './MonetaryAmount';
+} from "./InvoiceLineItem.ts";
+import type { MonetaryAmount } from "./MonetaryAmount.ts";
 import {
     MonetaryAmountFromJSON,
     MonetaryAmountFromJSONTyped,
     MonetaryAmountToJSON,
-} from './MonetaryAmount';
+} from "./MonetaryAmount.ts";
 
 /**
  * 
