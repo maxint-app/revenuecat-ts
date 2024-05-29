@@ -2,12 +2,12 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { Subscription } from "./Subscription.ts";
+import type { Subscription } from "./Subscription.js";
 export type ListSubscriptions = {
     /**
      * String representing the object's type. Objects of the same type share the same value. Always has the value `list`.
      */
-    object: ListSubscriptions.object;
+    object: ListSubscriptions.typeObj;
     /**
      * Details about each object.
      */
@@ -25,7 +25,7 @@ export namespace ListSubscriptions {
     /**
      * String representing the object's type. Objects of the same type share the same value. Always has the value `list`.
      */
-    export enum object {
+    export enum typeObj {
         LIST = 'list',
     }
 }

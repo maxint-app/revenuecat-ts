@@ -2,12 +2,12 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { Entitlement } from "./Entitlement.ts";
+import type { Entitlement } from "./Entitlement.js";
 export type ListEntitlements = {
     /**
      * String representing the object's type. Objects of the same type share the same value. Always has the value `list`.
      */
-    object: ListEntitlements.object;
+    object: ListEntitlements.typeObj;
     /**
      * Details about each object.
      */
@@ -25,7 +25,7 @@ export namespace ListEntitlements {
     /**
      * String representing the object's type. Objects of the same type share the same value. Always has the value `list`.
      */
-    export enum object {
+    export enum typeObj {
         LIST = 'list',
     }
 }

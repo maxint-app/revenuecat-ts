@@ -6,7 +6,7 @@ export type Project = {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    object: Project.object;
+    object: Project.typeObj;
     /**
      * The id of the project
      */
@@ -24,7 +24,7 @@ export namespace Project {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    export enum object {
+    export enum typeObj {
         PROJECT = 'project',
     }
 }

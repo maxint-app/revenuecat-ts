@@ -2,12 +2,12 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { DeletedObject } from "../models/DeletedObject.ts";
-import type { Entitlement } from "../models/Entitlement.ts";
-import type { ListEntitlements } from "../models/ListEntitlements.ts";
-import type { ProductsFromEntitlement } from "../models/ProductsFromEntitlement.ts";
-import type { CancelablePromise } from "../core/CancelablePromise.ts";
-import type { BaseHttpRequest } from "../core/BaseHttpRequest.ts";
+import type { DeletedObject } from "../models/DeletedObject.js";
+import type { Entitlement } from "../models/Entitlement.js";
+import type { ListEntitlements } from "../models/ListEntitlements.js";
+import type { ProductsFromEntitlement } from "../models/ProductsFromEntitlement.js";
+import type { CancelablePromise } from "../core/CancelablePromise.js";
+import type { BaseHttpRequest } from "../core/BaseHttpRequest.js";
 export class EntitlementService {
     constructor(public readonly httpRequest: BaseHttpRequest) {}
     /**

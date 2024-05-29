@@ -2,15 +2,15 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { AmazonApp } from "./AmazonApp.ts";
-import type { AppStoreApp } from "./AppStoreApp.ts";
-import type { MacAppStoreApp } from "./MacAppStoreApp.ts";
-import type { PlayStoreApp } from "./PlayStoreApp.ts";
+import type { AmazonApp } from "./AmazonApp.js";
+import type { AppStoreApp } from "./AppStoreApp.js";
+import type { MacAppStoreApp } from "./MacAppStoreApp.js";
+import type { PlayStoreApp } from "./PlayStoreApp.js";
 export type App = ({
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    object: App.object;
+    object: App.typeObj;
     /**
      * The id of the app
      */
@@ -36,7 +36,7 @@ export namespace App {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    export enum object {
+    export enum typeObj {
         APP = 'app',
     }
     /**

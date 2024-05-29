@@ -2,9 +2,16 @@
   "name": "revenuecat-ts",
   "version": "2.0.0",
   "description": "RevenueCat API client for Typescript",
-  "main": "index.ts",
+  "main": "dist/esm/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf dist && tsc && npx tsc --module CommonJs --moduleResolution Node --outDir dist/cjs"
   },
   "repository": {
     "type": "git",
@@ -14,9 +21,13 @@
     "revenuecat"
   ],
   "author": "Maxint Inc.",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/maxint-app/revenuecat-ts/issues"
   },
-  "homepage": "https://github.com/maxint-app/revenuecat-ts#readme"
+  "homepage": "https://github.com/maxint-app/revenuecat-ts#readme",
+  "devDependencies": {
+    "rimraf": "^5.0.7",
+    "typescript": "^5.4.5"
+  }
 }

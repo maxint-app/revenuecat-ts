@@ -2,12 +2,12 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { App } from "./App.ts";
+import type { App } from "./App.js";
 export type ListApps = {
     /**
      * String representing the object's type. Objects of the same type share the same value. Always has the value `list`.
      */
-    object: ListApps.object;
+    object: ListApps.typeObj;
     /**
      * Details about each object.
      */
@@ -25,7 +25,7 @@ export namespace ListApps {
     /**
      * String representing the object's type. Objects of the same type share the same value. Always has the value `list`.
      */
-    export enum object {
+    export enum typeObj {
         LIST = 'list',
     }
 }

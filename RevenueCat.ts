@@ -2,19 +2,19 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { BaseHttpRequest } from "./core/BaseHttpRequest.ts";
-import type { OpenAPIConfig } from "./core/OpenAPI.ts";
-import { FetchHttpRequest } from "./core/FetchHttpRequest.ts";
-import { AppService } from "./services/AppService.ts";
-import { ChartsMetricsService } from "./services/ChartsMetricsService.ts";
-import { CustomerService } from "./services/CustomerService.ts";
-import { EntitlementService } from "./services/EntitlementService.ts";
-import { InvoiceService } from "./services/InvoiceService.ts";
-import { OfferingService } from "./services/OfferingService.ts";
-import { PackageService } from "./services/PackageService.ts";
-import { ProductService } from "./services/ProductService.ts";
-import { ProjectService } from "./services/ProjectService.ts";
-import { SubscriptionService } from "./services/SubscriptionService.ts";
+import type { BaseHttpRequest } from "./core/BaseHttpRequest.js";
+import type { OpenAPIConfig } from "./core/OpenAPI.js";
+import { FetchHttpRequest } from "./core/FetchHttpRequest.js";
+import { AppService } from "./services/AppService.js";
+import { ChartsMetricsService } from "./services/ChartsMetricsService.js";
+import { CustomerService } from "./services/CustomerService.js";
+import { EntitlementService } from "./services/EntitlementService.js";
+import { InvoiceService } from "./services/InvoiceService.js";
+import { OfferingService } from "./services/OfferingService.js";
+import { PackageService } from "./services/PackageService.js";
+import { ProductService } from "./services/ProductService.js";
+import { ProjectService } from "./services/ProjectService.js";
+import { SubscriptionService } from "./services/SubscriptionService.js";
 type HttpRequestConstructor = new (config: OpenAPIConfig) => BaseHttpRequest;
 export class RevenueCat {
     public readonly app: AppService;

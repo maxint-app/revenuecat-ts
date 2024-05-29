@@ -2,13 +2,13 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { DeletedObject } from "../models/DeletedObject.ts";
-import type { ListPackages } from "../models/ListPackages.ts";
-import type { Package } from "../models/Package.ts";
-import type { PackageProductIDAssociation } from "../models/PackageProductIDAssociation.ts";
-import type { ProductsFromPackage } from "../models/ProductsFromPackage.ts";
-import type { CancelablePromise } from "../core/CancelablePromise.ts";
-import type { BaseHttpRequest } from "../core/BaseHttpRequest.ts";
+import type { DeletedObject } from "../models/DeletedObject.js";
+import type { ListPackages } from "../models/ListPackages.js";
+import type { Package } from "../models/Package.js";
+import type { PackageProductIDAssociation } from "../models/PackageProductIDAssociation.js";
+import type { ProductsFromPackage } from "../models/ProductsFromPackage.js";
+import type { CancelablePromise } from "../core/CancelablePromise.js";
+import type { BaseHttpRequest } from "../core/BaseHttpRequest.js";
 export class PackageService {
     constructor(public readonly httpRequest: BaseHttpRequest) {}
     /**

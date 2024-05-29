@@ -2,13 +2,13 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { OfferingMetadata } from "./OfferingMetadata.ts";
-import type { Package } from "./Package.ts";
+import type { OfferingMetadata } from "./OfferingMetadata.js";
+import type { Package } from "./Package.js";
 export type Offering = {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    object: Offering.object;
+    object: Offering.typeObj;
     /**
      * The id of the offering
      */
@@ -41,7 +41,7 @@ export type Offering = {
         /**
          * String representing the object's type. Objects of the same type share the same value. Always has the value `list`.
          */
-        object: Offering.object;
+        object: Offering.typeObj;
         /**
          * Details about each object.
          */
@@ -60,7 +60,7 @@ export namespace Offering {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    export enum object {
+    export enum typeObj {
         OFFERING = 'offering',
     }
 }

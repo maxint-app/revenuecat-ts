@@ -6,7 +6,7 @@ export type OverviewMetric = {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    object: OverviewMetric.object;
+    object: OverviewMetric.typeObj;
     /**
      * Id of the overview metric
      */
@@ -44,7 +44,7 @@ export namespace OverviewMetric {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    export enum object {
+    export enum typeObj {
         OVERVIEW_METRIC = 'overview_metric',
     }
     /**

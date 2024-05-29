@@ -2,12 +2,12 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { DeletedObject } from "../models/DeletedObject.ts";
-import type { ListProducts } from "../models/ListProducts.ts";
-import type { Product } from "../models/Product.ts";
-import type { ProductType } from "../models/ProductType.ts";
-import type { CancelablePromise } from "../core/CancelablePromise.ts";
-import type { BaseHttpRequest } from "../core/BaseHttpRequest.ts";
+import type { DeletedObject } from "../models/DeletedObject.js";
+import type { ListProducts } from "../models/ListProducts.js";
+import type { Product } from "../models/Product.js";
+import type { ProductType } from "../models/ProductType.js";
+import type { CancelablePromise } from "../core/CancelablePromise.js";
+import type { BaseHttpRequest } from "../core/BaseHttpRequest.js";
 export class ProductService {
     constructor(public readonly httpRequest: BaseHttpRequest) {}
     /**

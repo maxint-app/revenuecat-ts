@@ -2,12 +2,12 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { DeletedObject } from "../models/DeletedObject.ts";
-import type { ListOfferings } from "../models/ListOfferings.ts";
-import type { Offering } from "../models/Offering.ts";
-import type { OfferingMetadata } from "../models/OfferingMetadata.ts";
-import type { CancelablePromise } from "../core/CancelablePromise.ts";
-import type { BaseHttpRequest } from "../core/BaseHttpRequest.ts";
+import type { DeletedObject } from "../models/DeletedObject.js";
+import type { ListOfferings } from "../models/ListOfferings.js";
+import type { Offering } from "../models/Offering.js";
+import type { OfferingMetadata } from "../models/OfferingMetadata.js";
+import type { CancelablePromise } from "../core/CancelablePromise.js";
+import type { BaseHttpRequest } from "../core/BaseHttpRequest.js";
 export class OfferingService {
     constructor(public readonly httpRequest: BaseHttpRequest) {}
     /**

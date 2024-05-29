@@ -2,9 +2,9 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { OverviewMetrics } from "../models/OverviewMetrics.ts";
-import type { CancelablePromise } from "../core/CancelablePromise.ts";
-import type { BaseHttpRequest } from "../core/BaseHttpRequest.ts";
+import type { OverviewMetrics } from "../models/OverviewMetrics.js";
+import type { CancelablePromise } from "../core/CancelablePromise.js";
+import type { BaseHttpRequest } from "../core/BaseHttpRequest.js";
 export class ChartsMetricsService {
     constructor(public readonly httpRequest: BaseHttpRequest) {}
     /**

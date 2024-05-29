@@ -6,7 +6,7 @@ export type Error = {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    object: Error.object;
+    object: Error.typeObj;
     /**
      * The error type
      */
@@ -36,7 +36,7 @@ export namespace Error {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    export enum object {
+    export enum typeObj {
         ERROR = 'error',
     }
     /**

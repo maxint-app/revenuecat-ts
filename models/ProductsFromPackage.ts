@@ -2,12 +2,12 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { PackageProductAssociation } from "./PackageProductAssociation.ts";
+import type { PackageProductAssociation } from "./PackageProductAssociation.js";
 export type ProductsFromPackage = {
     /**
      * String representing the object's type. Objects of the same type share the same value. Always has the value `list`.
      */
-    object: ProductsFromPackage.object;
+    object: ProductsFromPackage.typeObj;
     /**
      * Details about each object
      */
@@ -25,7 +25,7 @@ export namespace ProductsFromPackage {
     /**
      * String representing the object's type. Objects of the same type share the same value. Always has the value `list`.
      */
-    export enum object {
+    export enum typeObj {
         LIST = 'list',
     }
 }

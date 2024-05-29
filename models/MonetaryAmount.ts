@@ -2,7 +2,7 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { Currency } from "./Currency.ts";
+import type { Currency } from "./Currency.js";
 export type MonetaryAmount = {
     currency: Currency;
     /**

@@ -2,17 +2,17 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { Country } from "./Country.ts";
-import type { Entitlement } from "./Entitlement.ts";
-import type { Environment } from "./Environment.ts";
-import type { MonetaryAmount } from "./MonetaryAmount.ts";
-import type { Ownership } from "./Ownership.ts";
-import type { Product } from "./Product.ts";
+import type { Country } from "./Country.js";
+import type { Entitlement } from "./Entitlement.js";
+import type { Environment } from "./Environment.js";
+import type { MonetaryAmount } from "./MonetaryAmount.js";
+import type { Ownership } from "./Ownership.js";
+import type { Product } from "./Product.js";
 export type Subscription = {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    object: Subscription.object;
+    object: Subscription.typeObj;
     /**
      * The id of the subscription
      */
@@ -69,7 +69,7 @@ export type Subscription = {
         /**
          * String representing the object's type. Objects of the same type share the same value. Always has the value `list`.
          */
-        object: Subscription.object;
+        object: Subscription.typeObj;
         /**
          * Details about each object.
          */
@@ -117,7 +117,7 @@ export namespace Subscription {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    export enum object {
+    export enum typeObj {
         SUBSCRIPTION = 'subscription',
     }
     /**

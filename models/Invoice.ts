@@ -2,13 +2,13 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { InvoiceLineItem } from "./InvoiceLineItem.ts";
-import type { MonetaryAmount } from "./MonetaryAmount.ts";
+import type { InvoiceLineItem } from "./InvoiceLineItem.js";
+import type { MonetaryAmount } from "./MonetaryAmount.js";
 export type Invoice = {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    object: Invoice.object;
+    object: Invoice.typeObj;
     /**
      * The id of the invoice
      */
@@ -35,7 +35,7 @@ export namespace Invoice {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    export enum object {
+    export enum typeObj {
         INVOICE = 'invoice',
     }
 }

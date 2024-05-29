@@ -2,14 +2,14 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { App } from "./App.ts";
-import type { ProductType } from "./ProductType.ts";
-import type { SubscriptionProduct } from "./SubscriptionProduct.ts";
+import type { App } from "./App.js";
+import type { ProductType } from "./ProductType.js";
+import type { SubscriptionProduct } from "./SubscriptionProduct.js";
 export type Product = {
     /**
      * String representing the object's type. Objects of the same type share the same value. Always has the value `list`.
      */
-    object: Product.object;
+    object: Product.typeObj;
     /**
      * The id of the product
      */
@@ -47,7 +47,7 @@ export namespace Product {
     /**
      * String representing the object's type. Objects of the same type share the same value. Always has the value `list`.
      */
-    export enum object {
+    export enum typeObj {
         PRODUCT = 'product',
     }
 }

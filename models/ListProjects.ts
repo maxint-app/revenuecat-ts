@@ -2,12 +2,12 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { Project } from "./Project.ts";
+import type { Project } from "./Project.js";
 export type ListProjects = {
     /**
      * String representing the object's type. Objects of the same type share the same value. Always has the value `list`.
      */
-    object: ListProjects.object;
+    object: ListProjects.typeObj;
     /**
      * Details about each object.
      */
@@ -25,7 +25,7 @@ export namespace ListProjects {
     /**
      * String representing the object's type. Objects of the same type share the same value. Always has the value `list`.
      */
-    export enum object {
+    export enum typeObj {
         LIST = 'list',
     }
 }

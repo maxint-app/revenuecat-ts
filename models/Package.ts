@@ -6,7 +6,7 @@ export type Package = {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    object: Package.object;
+    object: Package.typeObj;
     /**
      * The id of the package
      */
@@ -33,7 +33,7 @@ export namespace Package {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    export enum object {
+    export enum typeObj {
         PACKAGE = 'package',
     }
 }

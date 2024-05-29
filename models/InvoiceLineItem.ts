@@ -2,12 +2,12 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { MonetaryAmount } from "./MonetaryAmount.ts";
+import type { MonetaryAmount } from "./MonetaryAmount.js";
 export type InvoiceLineItem = {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    object: InvoiceLineItem.object;
+    object: InvoiceLineItem.typeObj;
     /**
      * The product identifier
      */
@@ -30,7 +30,7 @@ export namespace InvoiceLineItem {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    export enum object {
+    export enum typeObj {
         INVOICE_LINE_ITEM = 'invoice.line_item',
     }
 }

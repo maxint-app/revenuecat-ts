@@ -6,7 +6,7 @@ export type DeletedObject = {
     /**
      * The type of the deleted object
      */
-    object: DeletedObject.object;
+    object: DeletedObject.typeObj;
     /**
      * The ID of the deleted object
      */
@@ -20,7 +20,7 @@ export namespace DeletedObject {
     /**
      * The type of the deleted object
      */
-    export enum object {
+    export enum typeObj {
         APP = 'app',
         CUSTOMER = 'customer',
         ENTITLEMENT = 'entitlement',

@@ -2,12 +2,12 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { App } from "../models/App.ts";
-import type { AppCreate } from "../models/AppCreate.ts";
-import type { DeletedObject } from "../models/DeletedObject.ts";
-import type { ListApps } from "../models/ListApps.ts";
-import type { CancelablePromise } from "../core/CancelablePromise.ts";
-import type { BaseHttpRequest } from "../core/BaseHttpRequest.ts";
+import type { App } from "../models/App.js";
+import type { AppCreate } from "../models/AppCreate.js";
+import type { DeletedObject } from "../models/DeletedObject.js";
+import type { ListApps } from "../models/ListApps.js";
+import type { CancelablePromise } from "../core/CancelablePromise.js";
+import type { BaseHttpRequest } from "../core/BaseHttpRequest.js";
 export class AppService {
     constructor(public readonly httpRequest: BaseHttpRequest) {}
     /**

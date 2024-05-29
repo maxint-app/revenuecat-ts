@@ -2,12 +2,12 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { OverviewMetric } from "./OverviewMetric.ts";
+import type { OverviewMetric } from "./OverviewMetric.js";
 export type OverviewMetrics = {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    object: OverviewMetrics.object;
+    object: OverviewMetrics.typeObj;
     /**
      * Details about each overview metric.
      */
@@ -17,7 +17,7 @@ export namespace OverviewMetrics {
     /**
      * String representing the object's type. Objects of the same type share the same value.
      */
-    export enum object {
+    export enum typeObj {
         OVERVIEW_METRICS = 'overview_metrics',
     }
 }

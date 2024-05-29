@@ -2,12 +2,12 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { Offering } from "./Offering.ts";
+import type { Offering } from "./Offering.js";
 export type ListOfferings = {
     /**
      * String representing the object's type. Objects of the same type share the same value. Always has the value `list`.
      */
-    object: ListOfferings.object;
+    object: ListOfferings.typeObj;
     /**
      * Details about each object.
      */
@@ -25,7 +25,7 @@ export namespace ListOfferings {
     /**
      * String representing the object's type. Objects of the same type share the same value. Always has the value `list`.
      */
-    export enum object {
+    export enum typeObj {
         LIST = 'list',
     }
 }

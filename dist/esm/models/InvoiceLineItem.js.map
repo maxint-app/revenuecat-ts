@@ -1,0 +1,1 @@
+{"version":3,"file":"InvoiceLineItem.js","sourceRoot":"","sources":["../../../models/InvoiceLineItem.ts"],"names":[],"mappings":"AA4BA,MAAM,KAAW,eAAe,CAO/B;AAPD,WAAiB,eAAe;IAC5B;;OAEG;IACH,IAAY,OAEX;IAFD,WAAY,OAAO;QACf,kDAAuC,CAAA;IAC3C,CAAC,EAFW,OAAO,GAAP,uBAAO,KAAP,uBAAO,QAElB;AACL,CAAC,EAPgB,eAAe,KAAf,eAAe,QAO/B"}

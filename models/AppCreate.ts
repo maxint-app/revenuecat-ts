@@ -2,10 +2,10 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { AmazonAppCreate } from "./AmazonAppCreate.ts";
-import type { AppStoreAppCreate } from "./AppStoreAppCreate.ts";
-import type { MacAppStoreAppCreate } from "./MacAppStoreAppCreate.ts";
-import type { PlayStoreAppCreate } from "./PlayStoreAppCreate.ts";
+import type { AmazonAppCreate } from "./AmazonAppCreate.js";
+import type { AppStoreAppCreate } from "./AppStoreAppCreate.js";
+import type { MacAppStoreAppCreate } from "./MacAppStoreAppCreate.js";
+import type { PlayStoreAppCreate } from "./PlayStoreAppCreate.js";
 export type AppCreate = ({
     /**
      * The name of the app
